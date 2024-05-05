@@ -70,6 +70,26 @@
       </div>
 
       <div class="row">
+           <div class="container-fluid mt-5">    
+            <div class="row"> 
+                <div class="col-md-6 mt-5 text-center" style="padding: 0;">
+                    <h1>Looking for an on-campus job at UWEC? Find it here!</h1>
+                    <h3> 
+                      
+                      Visit our <a href="./login" type="button" class="btn btn-outline-primary" style="font-size: x-large;" role="button">Jobs Page</a> 
+                    </h3>
+                </div>
+                <div class="col-md-6 p-0 text-center">    
+                        <img class="lts" src="lts.jpg" style="max-width: 100%; padding: 0;">
+                        <br> <br>
+                        <h4>
+                            Search for a Job OR <a href="./login" type="button" class="btn btn-outline-primary" style="font-size: large;" role="button">Login</a> to Apply!
+                        </h4>
+                </div>  
+         {% block content %} 
+          {%endblock %} 
+      </div>
+    </div>
           {% block content %}{% endblock %}
       </div>
     </main>
